@@ -1,0 +1,10 @@
+{
+  "name": "4yous",
+  "description": "Filter the best you's",
+  "version": "0.1",
+  "manifest_version": 2,
+  "content_scripts": [{
+    "matches": ["https://boards.4chan.org/*"],
+    "js": ["index.js"]
+  }]
+}
